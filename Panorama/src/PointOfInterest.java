@@ -26,6 +26,7 @@ public class PointOfInterest {
 				                 dist);
 		
 		
+		
 		// Check for collision with height curve
 		for (int i=0; i<HCurve.NumberOfElements; i++){
 			if (HCurve.Heights[i]>PhoneHeight){

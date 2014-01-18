@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+
 
 public class PanoramaActivity extends Activity {
 
@@ -29,6 +34,7 @@ public class PanoramaActivity extends Activity {
         
         RelativeLayout relativeLayoutSensorsData = (RelativeLayout) findViewById(R.id.sensors_data_layout);
         relativeLayoutSensorsData.bringToFront();
+        
         
     }
 

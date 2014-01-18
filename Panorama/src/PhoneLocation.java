@@ -6,6 +6,7 @@ public class PhoneLocation {
 	// Constructor
 	public PhoneLocation(Location loc){
 		m_CurrentLocation = loc;
+		
 	}
 
 	

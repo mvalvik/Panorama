@@ -2,4 +2,5 @@
 public class HeightCurve {
 	int NumberOfElements;
 	double[] Heights;
+	
 }
